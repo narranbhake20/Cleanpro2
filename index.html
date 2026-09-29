@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CleanPro | Cleaning Services</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#f5f8fc;color:#10233f;line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:10;background:#07162b;color:white;padding:16px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:1.4rem;font-weight:900}.logo span{color:#55e6b0}
+.links{display:flex;gap:22px}.links a:hover{color:#55e6b0}
+.hero{min-height:78vh;padding:70px 6%;display:flex;align-items:center;color:white;background:linear-gradient(135deg,#07162b,#0b3153 55%,#087d83)}
+.hero-inner{max-width:780px}.badge{display:inline-block;padding:8px 15px;border:1px solid #ffffff44;border-radius:30px;margin-bottom:18px;color:#cffff0}
+h1{font-size:clamp(2.8rem,8vw,5.4rem);line-height:.98;letter-spacing:-3px;margin-bottom:22px}
+.hero p{font-size:1.15rem;color:#dceaf7;max-width:650px;margin-bottom:30px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:14px 21px;border-radius:12px;font-weight:800}
+.primary{background:#55e6b0;color:#062038}.secondary{border:1px solid #ffffff55;color:white}
+section{padding:70px 6%}.wrap{max-width:1120px;margin:auto}
+.title{text-align:center;font-size:2.2rem;margin-bottom:10px}.sub{text-align:center;color:#607086;max-width:650px;margin:0 auto 38px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:white;border:1px solid #e2eaf2;border-radius:18px;padding:27px;box-shadow:0 10px 30px #15365c0b}
+.icon{font-size:2rem;margin-bottom:10px}.card h3{margin-bottom:7px}.card p{color:#66768a}
+.dark{background:#07162b;color:white}.dark .sub{color:#cbd9e8}
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.price{background:#102946;border-radius:18px;padding:25px}.price strong{display:block;color:#55e6b0;font-size:1.8rem;margin:8px 0}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{background:white;border-radius:18px;padding:25px;border:1px solid #e2eaf2}
+.num{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:#55e6b0;color:#062038;font-weight:900;margin-bottom:14px}
+.cta{margin:0 6% 65px;border-radius:24px;padding:55px 7%;background:linear-gradient(120deg,#0b3153,#087d83);color:white;text-align:center}.cta p{color:#d8f4f1;max-width:620px;margin:10px auto 25px}
+footer{background:#061326;color:#b8c8da;text-align:center;padding:30px 6%}footer strong{color:white}
+@media(max-width:800px){.links{display:none}.grid,.prices,.steps{grid-template-columns:1fr}h1{letter-spacing:-2px}.hero{min-height:75vh;padding-top:55px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">Clean<span>Pro</span> ✦</div><div class="links"><a href="#services">Services</a><a href="#how">How it works</a><a href="#contact">Contact</a></div></nav>
+<header class="hero"><div class="hero-inner">
+<div class="badge">✨ Fresh spaces. Better living.</div>
+<h1>We make clean look easy.</h1>
+<p>Professional cleaning for homes, offices, shops, yards and move-in or move-out spaces across Johannesburg and Gauteng.</p>
+<div class="buttons"><a class="btn primary" href="https://wa.me/27693018248?text=Hi%20CleanPro%2C%20I%27d%20like%20a%20cleaning%20quote.">Get a WhatsApp Quote →</a><a class="btn secondary" href="#services">See Services</a></div>
+</div></header>
+<section id="services"><div class="wrap"><h2 class="title">What we clean</h2><p class="sub">Choose a service or tell us what you need. Request a custom quote for your space.</p>
+<div class="grid">
+<div class="card"><div class="icon">🏠</div><h3>Home Cleaning</h3><p>Bedrooms, kitchens, bathrooms, living areas and general household cleaning.</p></div>
+<div class="card"><div class="icon">🏢</div><h3>Office & Shop</h3><p>Keep workspaces, shops and customer areas fresh and presentable.</p></div>
+<div class="card"><div class="icon">🌿</div><h3>Yard & Outdoor</h3><p>Outdoor tidy-ups and general yard cleaning for a cleaner property.</p></div>
+<div class="card"><div class="icon">✨</div><h3>Deep Cleaning</h3><p>Extra attention for spaces that need a more thorough clean.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Move-In / Move-Out</h3><p>Cleaning support before moving into a new place or after moving out.</p></div>
+<div class="card"><div class="icon">🧽</div><h3>Custom Jobs</h3><p>Have a specific task? Tell us what you need and request a quote.</p></div>
+</div></div></section>
+<section class="dark"><div class="wrap"><h2 class="title">Simple, quote-first pricing</h2><p class="sub">Every space is different, so we check what you need before giving you a price.</p>
+<div class="prices"><div class="price"><h3>Small Jobs</h3><strong>Quote</strong><p>Individual rooms or smaller cleaning tasks.</p></div><div class="price"><h3>Full Spaces</h3><strong>Quote</strong><p>Homes, offices, shops and larger jobs.</p></div><div class="price"><h3>Deep Clean</h3><strong>Quote</strong><p>Detailed cleaning based on the size and condition of the space.</p></div></div></div></section>
+<section id="how"><div class="wrap"><h2 class="title">How it works</h2><p class="sub">Three easy steps from messy to fresh.</p>
+<div class="steps"><div class="step"><span class="num">1</span><h3>Tell us what you need</h3><p>Send a WhatsApp message with the type of cleaning and your area.</p></div><div class="step"><span class="num">2</span><h3>Get your quote</h3><p>Discuss the job and receive a quote based on what needs to be done.</p></div><div class="step"><span class="num">3</span><h3>Arrange the clean</h3><p>Agree on the details and arrange the cleaning with the service team.</p></div></div></div></section>
+<div class="cta" id="contact"><h2>Ready for a cleaner space?</h2><p>Message CleanPro and tell us what you need cleaned and where you're located.</p><a class="btn primary" href="https://wa.me/27693018248?text=Hi%20CleanPro%2C%20I%27d%20like%20a%20cleaning%20quote.">WhatsApp 069 301 8248</a></div>
+<footer><p><strong>CleanPro Cleaning Services</strong></p><p>Sandton • Germiston • Soweto • Johannesburg • Pretoria</p><p>© 2026 CleanPro</p></footer>
+</body></html>
